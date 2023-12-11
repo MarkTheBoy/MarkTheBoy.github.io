@@ -3,6 +3,10 @@
         height: 83vh;
         margin-bottom: 6rem;
     }
+    .about-containers{
+        flex-wrap: wrap;
+        justify-self: center;
+    }
 }
 
 @media screen and (max-width:1200px) {
@@ -10,10 +14,6 @@
         display: none;
     }
     #hamburger-nav {
-        display: flex;
-    }
-}
-#hamburger-nav {
         display: flex;
     }
     #experience ,
@@ -34,7 +34,7 @@
     section {
         margin: 0 5%;
     }
-    .section-pic-container {
+    .about-me-container {
         width: 275px;
         height: 275px;
         margin: 2rem;
